@@ -12,7 +12,7 @@
 #define SIZE 1024
 #define MAX_CLIENTS 10
 
-int creat_socket()
+int create_socket()
 {
     int server_socket = socket(AF_INET, SOCK_STREAM, 0);
     struct sockaddr_in addr;
